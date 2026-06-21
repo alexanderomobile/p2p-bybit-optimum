@@ -1,8 +1,24 @@
+🇷🇺 [Русский](README.md) · 🇬🇧 [English](README.en.md) · 🇪🇸 [Español](README.es.md)
+
 # P2P Bybit Optimum Bot
 
-**Telegram-бот: лучшие P2P USDT/RUB на Bybit** + подписка + Gemini ranking.
+**Поиск лучших P2P USDT/RUB на Bybit**
 
-> Showcase без кода.
+> Showcase без кода. Исходники — приватный репозиторий.
+
+---
+
+## Задача
+
+Поиск лучших P2P USDT/RUB на Bybit.
+
+## Функционал
+
+Фильтры, Bybit API, ранжирование Gemini, подписка, проверка депозитов.
+
+## Польза для бизнеса
+
+Автоматизирует мониторинг курса для трейдеров; монетизация через подписку.
 
 ## Стек
 
@@ -15,9 +31,11 @@ aiogram 3 · FastAPI · Bybit API · Gemini · MySQL
 ## Запуск
 
 ```bash
-python run.py
+pip install -r requirements.txt && python run.py
 ```
 
-**Case Study:** [portfolio](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/03-p2p-bybit-optimum.md)
+**Статус:** ✅ Завершён
+
+**Case Study:** [03-p2p-bybit-optimum.md](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/ru/03-p2p-bybit-optimum.md)
 
 [@alexanderomobile](https://github.com/alexanderomobile)
